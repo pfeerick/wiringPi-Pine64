@@ -1,0 +1,5 @@
+wiringpi (2.32) stable; urgency=low
+
+  * Initial version with real Debian source package build.
+
+ -- Richard Neese <kb3vgw@gmail.com>  Tue, 26 Apr 2016 21:28:17 -0600

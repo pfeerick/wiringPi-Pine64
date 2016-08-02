@@ -213,11 +213,9 @@ static void doLoad (int argc, char *argv [])
   else
     _doLoadUsage (argv) ;
 
-  if (piModel == PI_MODEL_ODROIDC  ||
-      piModel == PI_MODEL_ODROIDC2 ||
-      piModel == PI_MODEL_ODROIDXU_34)  {
+  if (piModel == PI_MODEL_PINE64 {
     if (strcasecmp (argv [2], "i2c") == 0)  {
-      if (piModel == PI_MODEL_ODROIDC || piModel == PI_MODEL_ODROIDC2)  {
+      if (piModel == PI_MODEL_PINE64  {
         module1 = "aml-i2c";
         file1 = "/dev/i2c-1";
         file2 = "/dev/i2c-2";
